@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(PCL 1.10 REQUIRED)
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
 catkin_package(
   CATKIN_DEPENDS roscpp sensor_msgs pcl_conversions pcl_ros
