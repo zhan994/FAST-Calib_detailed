@@ -117,8 +117,10 @@
 
 # Input
   lidar_topic: "/livox/lidar" # /ouster/points /livox/lidar
-  bag_path: "$(find fast_calib)/calib_data/air/11.bag"
-  image_path: "$(find fast_calib)/calib_data/air/11.png"
+  # bag_path: "$(find fast_calib)/calib_data/ground/33.bag"
+  # image_path: "$(find fast_calib)/calib_data/ground/33.png"
+  bag_path: "$(find fast_calib)/calib_data/air/33.bag"
+  image_path: "$(find fast_calib)/calib_data/air/33.png"
 
 # Output
   output_path: "$(find fast_calib)/output"
